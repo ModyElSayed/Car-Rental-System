@@ -70,6 +70,22 @@ body {
   z-index: 1;
 }
 
+.select {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 112%;
+  border: 1px solid #DADCE0;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 0 20px;
+  outline: none;
+  background: none;
+  z-index: 1;
+}
+
+
 /* Hide the placeholder texts (a) */
 
 ::placeholder {
@@ -135,7 +151,28 @@ body {
   color: #4285F4;
 }
 
+.select:focus + .label {
+  top: -7px;
+  left: 7px;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 200;
+  color: #4285F4;
+}
+
+.select:valid + .label {
+  top: -7px;
+  left: 7px;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 200;
+}
+
 .input:focus {
+  border: 2px solid #4285F4;
+}
+
+.select:focus {
   border: 2px solid #4285F4;
 }
 
@@ -146,3 +183,4 @@ body {
   font-size: 14px;
   font-weight: 200;
 }
+

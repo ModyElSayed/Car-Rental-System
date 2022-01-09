@@ -1,9 +1,9 @@
 <?php
-  include "config_database.php";
+  include("config_database.php");
 
   $email = mysqli_real_escape_string($con, $_POST['email']);
 
-  $sql_query = "SELECT COUNT(*) as number_of_emails FROM `Account` WHERE Email='{$email}'";
+  $sql_query = "SELECT COUNT(*) as number_of_emails FROM Account WHERE Email='{$email}'";
   $result = mysqli_query($con,$sql_query);
   $row = mysqli_fetch_array($result);
 

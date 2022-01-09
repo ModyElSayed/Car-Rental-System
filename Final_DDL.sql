@@ -1,4 +1,6 @@
-CREATE TABLE Car
+CREATE SCHEMA Car_Rental;
+
+CREATE TABLE Car_Rental.Car
 (
   Car_Id INT NOT NULL AUTO_INCREMENT,
   Brand VARCHAR(32) NOT NULL,
@@ -13,7 +15,7 @@ CREATE TABLE Car
   UNIQUE (Plate_Id)
 );
 
-CREATE TABLE Car_Color
+CREATE TABLE Car_Rental.Car_Color
 (
   Car_Id INT NOT NULL,
   Color VARCHAR(32) NOT NULL,
@@ -22,7 +24,7 @@ CREATE TABLE Car_Color
   FOREIGN KEY (Car_Id) REFERENCES Car(Car_Id)
 );
 
-CREATE TABLE Account
+CREATE TABLE Car_Rental.Account
 (
   Email VARCHAR(255) NOT NULL,
   Password VARCHAR(255) NOT NULL,
@@ -32,7 +34,7 @@ CREATE TABLE Account
 );
 
 -- For test only to be able to remember the encrypted password
-CREATE TABLE Decrypted_Account
+CREATE TABLE Car_Rental.Decrypted_Account
 (
   Email VARCHAR(255) NOT NULL,
   Password VARCHAR(255) NOT NULL,
@@ -41,7 +43,7 @@ CREATE TABLE Decrypted_Account
   PRIMARY KEY (Email)
 );
 
-CREATE TABLE Customer
+CREATE TABLE Car_Rental.Customer
 (
   Cus_Id INT NOT NULL AUTO_INCREMENT,
   First VARCHAR(32) NOT NULL,
@@ -55,7 +57,7 @@ CREATE TABLE Customer
   UNIQUE (SSN)
 );
 
-CREATE TABLE Address
+CREATE TABLE Car_Rental.Address
 (
   Zip CHAR(5) NOT NULL,
   Area VARCHAR(255) NOT NULL,
@@ -65,7 +67,7 @@ CREATE TABLE Address
   PRIMARY KEY (Zip)
 );
 
-CREATE TABLE Cus_Address
+CREATE TABLE Car_Rental.Cus_Address
 (
   Cus_Id INT NOT NULL,
   Zip CHAR(5) NOT NULL,
@@ -75,7 +77,7 @@ CREATE TABLE Cus_Address
   FOREIGN KEY (Zip) REFERENCES Address(Zip)
 );
 
-CREATE TABLE Reservation
+CREATE TABLE Car_Rental.Reservation
 (
   Reserve_Id INT NOT NULL AUTO_INCREMENT,
   Car_Id INT NOT NULL,
@@ -90,7 +92,7 @@ CREATE TABLE Reservation
   UNIQUE (Reserve_Id)
 );
 
-CREATE TABLE Online_Payment
+CREATE TABLE Car_Rental.Online_Payment
 (
   Card_Number VARCHAR(20) NOT NULL,
   CVV INT NOT NULL,
@@ -100,7 +102,7 @@ CREATE TABLE Online_Payment
   FOREIGN KEY (Cus_Id) REFERENCES Customer(Cus_Id)
 );
 
-CREATE TABLE Office
+CREATE TABLE Car_Rental.Office
 (
   Country_Code CHAR(2) NOT NULL,
   Country_Name VARCHAR(64) NOT NULL,

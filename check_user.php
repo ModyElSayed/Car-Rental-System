@@ -11,7 +11,7 @@
   $encrypted_password = md5($_POST["password"]);
   $password = mysqli_real_escape_string($con, $encrypted_password);
 
-  $sql_query = "SELECT COUNT(*) as number_of_emails FROM `Account` WHERE Email='{$email}' AND Password='{$password}'";
+  $sql_query = "SELECT COUNT(*) as number_of_emails FROM Account WHERE Email='{$email}' AND Password='{$password}'";
 
   // performing the query.
   $result = mysqli_query($con,$sql_query);
