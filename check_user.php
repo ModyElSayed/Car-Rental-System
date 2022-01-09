@@ -21,6 +21,7 @@
   $count = $row['number_of_emails'];
 
   if($count == 1 && $email == "admin@admin.com") {
+	$_SESSION['email'] = $email;
     echo 'Admin';
   } else if ($count == 1) {
     $_SESSION['email'] = $email;
