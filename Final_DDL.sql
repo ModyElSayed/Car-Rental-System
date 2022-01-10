@@ -5,7 +5,7 @@ CREATE TABLE Car
   Model VARCHAR(32) NOT NULL,
   Year YEAR NOT NULL,
   Plate_Id VARCHAR(32) NOT NULL,
-  Price INT NOT NULL,
+  Price INT NOT NULL,Color VARCHAR(32) NOT NULL
   Car_Status ENUM('Active', 'Out of Service') NOT NULL,
   Status_Date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
 
@@ -13,14 +13,6 @@ CREATE TABLE Car
   UNIQUE (Plate_Id)
 );
 
-CREATE TABLE Car_Color
-(
-  Car_Id INT NOT NULL,
-  Color VARCHAR(32) NOT NULL,
-
-  PRIMARY KEY (Color, Car_Id),
-  FOREIGN KEY (Car_Id) REFERENCES Car(Car_Id)
-);
 
 CREATE TABLE Account
 (
