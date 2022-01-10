@@ -5,7 +5,8 @@ CREATE TABLE Car
   Model VARCHAR(32) NOT NULL,
   Year YEAR NOT NULL,
   Plate_Id VARCHAR(32) NOT NULL,
-  Price INT NOT NULL,Color VARCHAR(32) NOT NULL
+  Price INT NOT NULL,
+  Color VARCHAR(32) NOT NULL,
   Car_Status ENUM('Active', 'Out of Service') NOT NULL,
   Status_Date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
 
@@ -73,8 +74,8 @@ CREATE TABLE Reservation
   Reserve_Id INT NOT NULL AUTO_INCREMENT,
   Car_Id INT NOT NULL,
   Cus_Id INT NOT NULL,
-  Payment_Type ENUM('Cash', 'Online'),
-  Total_Price INT,
+  Payment_Type ENUM('Cash', 'Online') NOT NULL,
+  Total_Price INT NOT NULL,
   Zip CHAR(5) NOT NULL,
   Reservation_Date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
 
