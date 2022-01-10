@@ -1,39 +1,365 @@
-<?php
+<html>
+<head>
 
-		if (isset($_POST["search"])) {
-			$searchedValName = $_POST["searchedValName"];
-			if (isset($_POST["searchedValGender"])) {
-				$searchedValGender = $_POST["searchedValGender"];
-			}
-			else {
-				$searchedValGender = "";
-			}
-			$searchedValCountry = $_POST["searchedValCountry"];
-			$searchedValCity = $_POST["searchedValCity"];
-			$query = "	SELECT `user_id`, `first_name`, `last_name`, `email`, `birthdate`, `gender`, `country`,`city`
-						FROM user
-						WHERE is_admin = 0 AND (CONCAT(`first_name`, `last_name`, `email`) LIKE '%".$searchedValName."%'
-												AND CONCAT(`gender`) LIKE '%".$searchedValGender."%'
-												AND CONCAT(`country`) LIKE '%".$searchedValCountry."%'
-												AND CONCAT(`city`) LIKE '%".$searchedValCity."%')";
-			$searchResults = getQueryResults($query);
-		}
-		else {
-			$query = "	SELECT `user_id`, `first_name`, `last_name`, `email`, `birthdate`, `gender`, `country`,`city`
-						FROM user
-                        WHERE is_admin = 0
-						ORDER BY user_id";
-			$searchResults = getQueryResults($query);
-		}
+	<title>Cars</title>
+	<!--Style sheets-->
+	<link rel="stylesheet" href="/Car-Rental-System/Styles/colours.css">
+    <link rel="stylesheet" href="/Car-Rental-System/Styles/location-size.css">
+    <link rel="stylesheet" href="/Car-Rental-System/Styles/fonts.css">
+	<!-- Scripts -->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.tabledit.js"></script>
+	<script type="text/javascript" src="custom_table_edit.js"></script>
 
-		function getQueryResults($query) {
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			$("#ajaxdata").load("carRecords.php");
+			$("#ajaxform").change(function(){
+				var selected=$(this).val();
+				$("#ajaxdata").load("carRecordsFiltered.php",{selected_price: selected});
+			});
+			$("#refresh").click(function(){
+				$("#ajaxdata").load("carRecords.php");
+			});
+		
+		});
+	</script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+			$("#ajaxdata").load("carRecords.php");
+
+			//here
+			var selectedModel;
+			var selectedBody;
+			var selectedBrand;
+			var selectedColor;
+			var selectedYear;
+			var selectedStatus;
+			var selectedOffice;
+			var selectedPriceMin = '0';
+			var selectedPriceMax = '99999';
+
+			$("#minprice").on("change keyup paste", function(){
+				//here
+				selectedPriceMin=$(this).val();
+
+				if (selectedPriceMin == "") {
+					selectedPriceMin = "0";
+				}
+				if (selectedPriceMax == "") {
+					selectedPriceMax = "999999";
+				}
+
+				$("#ajaxdata").load("carRecordsFiltered.php",{
+					model: selectedModel,
+					body: selectedBody,
+					brand: selectedBrand,
+					color: selectedColor,
+					year: selectedYear,
+					status: selectedStatus,
+					office: selectedOffice,
+					min_price: selectedPriceMin,
+					max_price: selectedPriceMax
+				});
+				//here
+			})
+
+
+
+			$("#maxprice").on("change keyup paste", function(){
+				//here
+				selectedPriceMax=$(this).val();
+
+				if (selectedPriceMin == "") {
+					selectedPriceMin = "0";
+				}
+				if (selectedPriceMax == "") {
+					selectedPriceMax = "999999";
+				}
+
+				$("#ajaxdata").load("carRecordsFiltered.php",{
+					model: selectedModel,
+					body: selectedBody,
+					brand: selectedBrand,
+					color: selectedColor,
+					year: selectedYear,
+					status: selectedStatus,
+					office: selectedOffice,
+					min_price: selectedPriceMin,
+					max_price: selectedPriceMax
+				});
+				//here
+			})
+
+
+
+			$("#ajaxform1").change(function(){
+
+				selectedModel=$(this).val();
+
+				if (selectedPriceMin == ""){
+					selectedPriceMin = '0';
+				}
+				if (selectedPriceMax == ""){
+					selectedPriceMax = '99999';
+				}
+				
+				$("#ajaxdata").load("carRecordsFiltered.php",{
+					model: selectedModel,
+					body: selectedBody,
+					brand: selectedBrand,
+					color: selectedColor,
+					year: selectedYear,
+					status: selectedStatus,
+					office: selectedOffice,
+					min_price: selectedPriceMin,
+					max_price: selectedPriceMax
+				});
+			});
+
+
+			
+			$("#ajaxform2").change(function(){
+
+				selectedBody=$(this).val();
+
+				if (selectedPriceMin == ""){
+					selectedPriceMin = '0';
+				}
+				if (selectedPriceMax == ""){
+					selectedPriceMax = '99999';
+				}
+
+				$("#ajaxdata").load("carRecordsFiltered.php",{
+					model: selectedModel,
+					body: selectedBody,
+					brand: selectedBrand,
+					color: selectedColor,
+					year: selectedYear,
+					status: selectedStatus,
+					office: selectedOffice,
+					min_price: selectedPriceMin,
+					max_price: selectedPriceMax
+				});
+			});
+
+
+
+			$("#ajaxform3").change(function(){
+
+				selectedBrand=$(this).val();
+
+				if (selectedPriceMin == ""){
+					selectedPriceMin = '0';
+				}
+				if (selectedPriceMax == ""){
+					selectedPriceMax = '99999';
+				}
+
+				$("#ajaxdata").load("carRecordsFiltered.php",{
+					model: selectedModel,
+					body: selectedBody,
+					brand: selectedBrand,
+					color: selectedColor,
+					year: selectedYear,
+					status: selectedStatus,
+					office: selectedOffice,
+					min_price: selectedPriceMin,
+					max_price: selectedPriceMax
+				});
+			});
+
+
+
+			$("#ajaxform4").change(function(){
+
+				selectedColor=$(this).val();
+
+				if (selectedPriceMin == ""){
+					selectedPriceMin = '0';
+				}
+				if (selectedPriceMax == ""){
+					selectedPriceMax = '99999';
+				}
+
+				$("#ajaxdata").load("carRecordsFiltered.php",{
+					model: selectedModel,
+					body: selectedBody,
+					brand: selectedBrand,
+					color: selectedColor,
+					year: selectedYear,
+					status: selectedStatus,
+					office: selectedOffice,
+					min_price: selectedPriceMin,
+					max_price: selectedPriceMax
+				});
+			});
+
+
+
+			$("#ajaxform5").change(function(){
+
+				selectedYear=$(this).val();
+
+				if (selectedPriceMin == ""){
+					selectedPriceMin = '0';
+				}
+				if (selectedPriceMax == ""){
+					selectedPriceMax = '99999';
+				}
+
+				$("#ajaxdata").load("carRecordsFiltered.php",{
+					model: selectedModel,
+					body: selectedBody,
+					brand: selectedBrand,
+					color: selectedColor,
+					year: selectedYear,
+					status: selectedStatus,
+					office: selectedOffice,
+					min_price: selectedPriceMin,
+					max_price: selectedPriceMax
+				});
+			});
+
+
+
+			$("#ajaxform6").change(function(){
+
+				selectedStatus=$(this).val();
+
+				if (selectedPriceMin == ""){
+					selectedPriceMin = '0';
+				}
+				if (selectedPriceMax == ""){
+					selectedPriceMax = '99999';
+				}
+
+				$("#ajaxdata").load("carRecordsFiltered.php",{
+					model: selectedModel,
+					body: selectedBody,
+					brand: selectedBrand,
+					color: selectedColor,
+					year: selectedYear,
+					status: selectedStatus,
+					office: selectedOffice,
+					min_price: selectedPriceMin,
+					max_price: selectedPriceMax
+				});
+			});
+
+
+			$("#ajaxform7").change(function(){
+
+				selectedOffice=$(this).val();
+
+				if (selectedPriceMin == ""){
+					selectedPriceMin = '0';
+				}
+				if (selectedPriceMax == ""){
+					selectedPriceMax = '99999';
+				}
+
+				$("#ajaxdata").load("carRecordsFiltered.php",{
+					model: selectedModel,
+					body: selectedBody,
+					brand: selectedBrand,
+					color: selectedColor,
+					year: selectedYear,
+					status: selectedStatus,
+					office: selectedOffice,
+					min_price: selectedPriceMin,
+					max_price: selectedPriceMax
+				});
+			});
+			
+			//here
+
+			// $("#refresh").click(function(){
+			// 	$("#ajaxdata").load("carRecords.php");
+			// });
+
+		});
+	</script>
+
+</head>
+
+<body>
+
+	<nav class="nav-bar black-background">
+
+		<a href="system_cars.php">
+        	<h2 class="font26 navbar-first white-colour">Cars</h2>
+		</a>
+
+        <a href="system_users.php">
+        	<h2 class="font26 navbar-second white-colour">Customers</h2>
+		</a>
+
+        <a href="system_reservations.php">
+        	<h2 class="font26 navbar-third white-colour">Reservations</h2>
+		</a>
+
+		<a href="system_offices.php">
+        	<h2 class="font26 navbar-fourth white-colour">Offices</h2>
+		</a>
+
+		<a href="/Car-Rental-System/logout.php">
+        	<h2 class="font26 logout-margins white-colour">Logout</h2>
+		</a>
+    
+    </nav>
+
+	<section class="white-colour font20 scrollbar">
+
+		<?php
+
+		if (isset($_POST["add"])) {
+
 			$servername = "localhost";
 			$username = "root";
 			$password = "";
 			$dbname = "carrentalsystem";
-			$conn = mysqli_connect($servername, $username, $password, $dbname);  //creates the connection
-			$filteredResult = mysqli_query($conn, $query);
-			return $filteredResult;
+			// Create connection
+			$conn = new mysqli($servername, $username, $password, $dbname);
+			// Check connection
+			if ($conn->connect_error) {
+				die("Connection failed: " . $conn->connect_error);
+			}
+
+			$newPlateID = $_POST["newPlateID"];
+
+			if (validatePlateID($newPlateID)) {
+				$sql = "INSERT INTO car (`plate_id`, `model`, `body`, `brand`, `color`, `year`, `status`, `office_id`, `price_day`) VALUES
+				($newPlateID, '', '', '', '', '', '', NULL, '')";
+			
+				if ($conn->query($sql) === TRUE) {
+					echo "New record created successfully";
+				}
+				else {
+					echo '	<h5 class="white-colour">
+							Error: ' . $sql . "<br>" . $conn->error . '
+							</h5>';
+				}
+			}
+			else {
+				echo '<h5 class="white-colour">"Error: Plate ID should be 4 digits long"</h5>' ;
+			}
+
+			$conn->close();
+
+		}
+
+		function validatePlateID($newPlateID) {
+			if (strlen($newPlateID) == 4) {
+				return 1;
+			}
+			else {
+				return 0;
+			}
 		}
 
 		$servername = "localhost";
@@ -46,19 +372,29 @@
 		}
 		
 		$sql = "SELECT *
-				FROM user
-				ORDER BY user_id";
+				FROM car
+				ORDER BY plate_id";
 		
 		$result = $conn->query($sql);  //gets the data of the user with the given inputs
 		
-		$countryArray = array();
-		$cityArray = array();
+		$modelArray = array();
+		$bodyArray = array();
+		$brandArray = array();
+		$colorArray = array();
+		$yearArray = array();
+		$statusArray = array();
+		$officeArray = array();
 		
 		if ($result->num_rows > 0) {
 
 			while ($row = $result->fetch_assoc()) {  // check if the data exists
-				$countryArray[] = $row["country"];
-				$cityArray[] = $row["city"];
+				$modelArray[] = $row["model"];
+				$bodyArray[] = $row["body"];
+				$brandArray[] = $row["brand"];
+				$colorArray[] = $row["color"];
+				$yearArray[] = $row["year"];
+				$statusArray[] = $row["status"];
+				$officeArray[] = $row["office_id"];
 			}
 			
 		}
@@ -66,76 +402,109 @@
 			echo "no cars exist";
 		}
 
-		$countryArray = array_unique($countryArray);
-		$cityArray = array_unique($cityArray);
+		$modelArray = array_unique($modelArray);
+		$bodyArray = array_unique($bodyArray);
+		$brandArray = array_unique($brandArray);
+		$colorArray = array_unique($colorArray);
+		$yearArray = array_unique($yearArray);
+		$statusArray = array_unique($statusArray);
+		$officeArray = array_unique($officeArray);
+
+		$conn->close();
 
 		?>
 
-		<form action="system_users.php" method="POST">
+		<form method="POST">
 
 			<br>
-
-			<input type="text" name="searchedValName" placeholder="Search name or email">
 			
-			<label>M</label>
-			<input type="radio" name="searchedValGender" value="M">
-			<label>F</label>
-			<input type="radio" name="searchedValGender" value="F">
-
-			<label> Country:</label>
-			<select name="searchedValCountry">
+			<label>Model:</label>
+			<select id="ajaxform1" name="searchedValModel">
 				<option selected="selected"></option>
 				<?php
-				foreach($countryArray as $item){
+				foreach($modelArray as $item){
+					echo '<option value=' .$item. '>' .$item. '</option>';
+				}
+				?>
+			</select>
+						
+			<label>Body:</label>
+			<select id="ajaxform2" name="searchedValBody">
+				<option selected="selected"></option>
+				<?php
+				foreach($bodyArray as $item){
+					echo '<option value=' .$item. '>' .$item. '</option>';
+				}
+				?>
+			</select>
+						
+			<label>Brand:</label>
+			<select id="ajaxform3" name="searchedValBrand">
+				<option selected="selected"></option>
+				<?php
+				foreach($brandArray as $item){
 					echo '<option value=' .$item. '>' .$item. '</option>';
 				}
 				?>
 			</select>
 
-			<label> City:</label>
-			<select name="searchedValCity">
+			<label>Color:</label>
+			<select id="ajaxform4" name="searchedValColor">
 				<option selected="selected"></option>
 				<?php
-				foreach($cityArray as $item){
+				foreach($colorArray as $item){
 					echo '<option value=' .$item. '>' .$item. '</option>';
 				}
 				?>
 			</select>
 
-			<input type="submit" name="search" value="Filter">
-			<br>
+			<label>Year:</label>
+			<select id="ajaxform5" name="searchedValYear">
+				<option selected="selected"></option>
+				<?php
+				foreach($yearArray as $item){
+					echo '<option value=' .$item. '>' .$item. '</option>';
+				}
+				?>
+			</select>
+
+			<label>Status:</label>
+			<select id="ajaxform6" name="searchedValStatus">
+				<option selected="selected"></option>
+				<?php
+				foreach($statusArray as $item){
+					echo '<option value=' .$item. '>' .$item. '</option>';
+				}
+				?>
+			</select>
+
+			<label>Office:</label>
+			<select id="ajaxform7" name="searchedValOffice">
+				<option selected="selected"></option>
+				<?php
+				foreach($officeArray as $item){
+					echo '<option value=' .$item. '>' .$item. '</option>';
+				}
+				?>
+			</select>
+
+			<label>Price/Day:</label>
+			<input id="minprice" type="number" name="searchedValPriceMin" placeholder="From">
+			<input id="maxprice" type="number" name="searchedValPriceMax" placeholder="To">
 
 			<br>
-			<table class="white-colour font20 black-background cool-table">
+			<br>
+			<input type="text" name="newPlateID" placeholder="New Car Plate ID">
+			<input type="submit" name="add" value="Add New Car">
+			<br>
 
-				<tr>
-					<th>UserID</th>
-					<th>FirstName</th>
-					<th>LastName</th>
-					<th>Email</th>
-					<th>Birthdate</th>
-					<th>Gender</th>
-					<th>Country</th>
-					<th>City</th>
-				</tr>
-				<?php while($row = mysqli_fetch_array($searchResults)):?>
-				<tr>
-                    <td><?php echo $row["user_id"];?></td>
-                    <td><?php echo $row["first_name"];?></td>
-                    <td><?php echo $row["last_name"];?></td>
-                    <td><?php echo $row["email"];?></td>
-                    <td><?php echo $row["birthdate"];?></td>
-                    <td><?php echo $row["gender"];?></td>
-                    <td><?php echo $row["country"];?></td>
-                    <td><?php echo $row["city"];?></td>
-				</tr>
-				<?php endwhile;?>
-			
-			</table>
-		
 		</form>
 
-    </section>
+		<div id="ajaxdata">
+		
+		</div>
+    
+	</section>
 
 </body>
 </html>
