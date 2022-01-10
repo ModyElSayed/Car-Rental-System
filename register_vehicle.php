@@ -42,7 +42,14 @@
             });
         });
       </script>
-
+	  <?php
+			session_start();
+			$email = $_SESSION['email'];
+			if($email != "admin@admin.com"){
+				header('Location: index.php');
+				exit;
+			}
+	  ?>
   </head>
   <body>
 
@@ -98,7 +105,8 @@
         </div>
 
         <div class="submitContainer">
-          <input type="submit" id="submit" name="submit" class="submitBtn" value="Register" style="float:right">
+			<input type="submit" class="submitIn" value="Back" style="float:left" onClick="window.location.href='home.php';">
+			<input type="submit" id="submit" name="submit" class="submitBtn" value="Register" style="float:right">
         </div>
 
       </div>
