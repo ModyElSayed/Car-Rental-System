@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+  <head>
+      <title>Search For Reservations</title>
+      <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
+
+      <script src="jquery-3.6.0.js" type="text/javascript"></script>
+      <script src="repyearval.js" type="text/javascript"></script>
+	  
+	  <script type="text/javascript">
+        $(document).ready(function(){
+
+            $("#submit").click(function(){
+                if(registration()){
+					var yeara = $("#yeara").val().trim();
+					var yearb = $("#yearb").val().trim();
+					$.ajax({
+						url:'get_reservations_byyear.php',
+						type:'post',
+						data:{yeara:yeara, yearb:yearb},
+						success:function(response){  
+							window.location = "showreservationsbyyear.php";
+						}
+					});
+                }
+            });
+        });
+      </script>
+	  
+  </head>
+  <body>
+	<div class="signFrm">
+      <div class="form">
+
+        <h1 class="title">Report (search by year)</h1>
+
+		<div class="inputContainer">
+			<select name="yeara" class="select" id="yeara" required>
+				<!--don't forget to validate for a choice-->
+				<?php
+					for($i = 2000; $i <= date("Y") ; $i++){
+						echo "<option value=\"$i\">$i</option>";
+					}
+				?>
+			</select>
+			<label class="label">Year At Least</label>
+        </div>
+		<div class="inputContainer">
+			<select name="yearb" class="select" id="yearb" required>
+				<!--don't forget to validate for a choice-->
+				<?php
+					for($i = 2000; $i <= date("Y") ; $i++){
+						echo "<option value=\"$i\">$i</option>";
+					}
+				?>
+			</select>
+			<label class="label">Year At Most</label>
+        </div>
+
+        <div class="submitContainer">
+			<input type="submit" class="submitIn" value="Back" style="float:left" onClick="window.location.href='home.php';">
+			<input type="submit" id="submit" name="submit" class="submitBtn" value="Search" style="float:right">
+        </div>
+      </div>
+    </div>
+
+		
+
+  </body>
+</html>

@@ -1,6 +1,4 @@
-CREATE SCHEMA Car_Rental;
-
-CREATE TABLE Car_Rental.Car
+CREATE TABLE Car
 (
   Car_Id INT NOT NULL AUTO_INCREMENT,
   Brand VARCHAR(32) NOT NULL,
@@ -15,7 +13,7 @@ CREATE TABLE Car_Rental.Car
   UNIQUE (Plate_Id)
 );
 
-CREATE TABLE Car_Rental.Car_Color
+CREATE TABLE Car_Color
 (
   Car_Id INT NOT NULL,
   Color VARCHAR(32) NOT NULL,
@@ -24,7 +22,7 @@ CREATE TABLE Car_Rental.Car_Color
   FOREIGN KEY (Car_Id) REFERENCES Car(Car_Id)
 );
 
-CREATE TABLE Car_Rental.Account
+CREATE TABLE Account
 (
   Email VARCHAR(255) NOT NULL,
   Password VARCHAR(255) NOT NULL,
@@ -34,7 +32,7 @@ CREATE TABLE Car_Rental.Account
 );
 
 -- For test only to be able to remember the encrypted password
-CREATE TABLE Car_Rental.Decrypted_Account
+CREATE TABLE Decrypted_Account
 (
   Email VARCHAR(255) NOT NULL,
   Password VARCHAR(255) NOT NULL,
@@ -43,7 +41,7 @@ CREATE TABLE Car_Rental.Decrypted_Account
   PRIMARY KEY (Email)
 );
 
-CREATE TABLE Car_Rental.Customer
+CREATE TABLE Customer
 (
   Cus_Id INT NOT NULL AUTO_INCREMENT,
   First VARCHAR(32) NOT NULL,
@@ -54,10 +52,11 @@ CREATE TABLE Car_Rental.Customer
 
   PRIMARY KEY (Cus_Id),
   FOREIGN KEY (Email) REFERENCES Account(Email),
-  UNIQUE (SSN)
+  UNIQUE (SSN),
+  UNIQUE (Email)
 );
 
-CREATE TABLE Car_Rental.Address
+CREATE TABLE Address
 (
   Zip CHAR(5) NOT NULL,
   Area VARCHAR(255) NOT NULL,
@@ -67,7 +66,7 @@ CREATE TABLE Car_Rental.Address
   PRIMARY KEY (Zip)
 );
 
-CREATE TABLE Car_Rental.Cus_Address
+CREATE TABLE Cus_Address
 (
   Cus_Id INT NOT NULL,
   Zip CHAR(5) NOT NULL,
@@ -77,22 +76,24 @@ CREATE TABLE Car_Rental.Cus_Address
   FOREIGN KEY (Zip) REFERENCES Address(Zip)
 );
 
-CREATE TABLE Car_Rental.Reservation
+CREATE TABLE Reservation
 (
   Reserve_Id INT NOT NULL AUTO_INCREMENT,
   Car_Id INT NOT NULL,
   Cus_Id INT NOT NULL,
-  Payment_Type ENUM('Cash', 'Online') NOT NULL,
-  Pickup_Location VARCHAR(32) NOT NULL,
+  Payment_Type ENUM('Cash', 'Online'),
+  Total_Price INT,
+  Zip CHAR(5) NOT NULL,
   Reservation_Date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
 
   PRIMARY KEY (Car_Id, Cus_Id, Reservation_Date),
   FOREIGN KEY (Car_Id) REFERENCES Car(Car_Id),
   FOREIGN KEY (Cus_Id) REFERENCES Customer(Cus_Id),
+  FOREIGN KEY (Zip) REFERENCES Address(Zip),
   UNIQUE (Reserve_Id)
 );
 
-CREATE TABLE Car_Rental.Online_Payment
+CREATE TABLE Online_Payment
 (
   Card_Number VARCHAR(20) NOT NULL,
   CVV INT NOT NULL,
@@ -102,7 +103,7 @@ CREATE TABLE Car_Rental.Online_Payment
   FOREIGN KEY (Cus_Id) REFERENCES Customer(Cus_Id)
 );
 
-CREATE TABLE Car_Rental.Office
+CREATE TABLE Office
 (
   Country_Code CHAR(2) NOT NULL,
   Country_Name VARCHAR(64) NOT NULL,

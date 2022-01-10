@@ -27,7 +27,7 @@
 				<input type="submit" id="acar" class="submitBtn" value="Add Car" style="float:center" onclick="window.location.href='register_vehicle.php';">
 			</div>
 			<div class="inputContainer">
-				<input type="submit" id="rep" class="submitBtn" value="View Reports" style="float:center">
+				<input type="submit" id="rep" class="submitBtn" value="View Reports" style="float:center" onclick="window.location.href='reporthub.php';">
 			</div>
 			
 		  <input type="submit" id="logout" class="submitBtn" value="Logout" style="float:right" onclick="window.location.href='logout.php';">

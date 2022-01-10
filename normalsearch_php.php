@@ -19,7 +19,8 @@
 				<th>Car Brand</th>
 				<th>Car Model</th>
 				<th>Car Year</th>
-				<th>Car Price</th>";
+				<th>Car Price</th>
+				<th>Select</th>";
 	while($res = mysqli_fetch_row($result))
 	{   
 		echo "<tr>";
@@ -28,7 +29,12 @@
 		echo "<td align=center>$res[2]</td>";
 		echo "<td align=center>$res[3]</td>";
 		echo "<td align=center>$res[4]</td>";
+		echo "<td align=center><input type=\"radio\" value =\"res[0]\" id=\"res[0]\" name=\"res_sel\"></td>";
 		echo "</tr>";
 	}
 	echo "</table>";
+	echo "<input type=\"submit\" class=\"submitIn\" value=\"Reserve\" style=\"float:left\" id=\"reservebutton\" onClick=\"window.location.href='home.php';\">";
+	echo "<label>".$_POST['name="res_sel"']."</>";
+	// $_SESSION['reservedcar'] = $_GET['reservebutton'];
+	
 ?>
