@@ -1,0 +1,941 @@
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Honda','Out of Service','617964','WRV','1100','2016');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Honda','Out of Service','703374','WRV','1100','2016');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Honda','Active','723927','WRV','1100','2017');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Honda','Active','557618','Civic','1400','2019');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Honda','Active','579289','WRV','1100','2015');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Honda','Active','557115','City','1800','2015');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Honda','Active','132435','Jazz','2200','2018');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Honda','Out of Service','916034','City','1800','2015');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Honda','Out of Service','478819','WRV','1100','2020');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Honda','Out of Service','482696','WRV','1100','2015');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Honda','Out of Service','370174','CR-V','1500','2017');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Honda','Active','121946','City','1800','2018');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Honda','Out of Service','390044','Jazz','2200','2018');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Honda','Out of Service','818977','City','1800','2015');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Honda','Active','805173','Jazz','2200','2018');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Honda','Out of Service','184684','WRV','1100','2017');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Honda','Active','899222','Civic','1400','2016');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Honda','Out of Service','943199','Jazz','2200','2016');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Honda','Out of Service','693173','CR-V','1500','2016');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Honda','Active','672352','Jazz','2200','2020');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Hyundai','Out of Service','253028','Verna','1200','2016');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Hyundai','Active','563458','Verna','1200','2016');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Hyundai','Active','710411','Elantra','1700','2020');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Hyundai','Out of Service','397168','Venue','1650','2017');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Hyundai','Out of Service','272737','Santro','1100','2018');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Hyundai','Out of Service','961247','Creta','1850','2018');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Hyundai','Out of Service','435345','Santro','1100','2019');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Hyundai','Active','584070','Venue','1650','2016');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Hyundai','Out of Service','265583','Creta','1850','2019');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Hyundai','Out of Service','212254','Alcazar','2200','2015');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Hyundai','Out of Service','389844','Elantra','1700','2020');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Hyundai','Active','129100','Venue','1650','2020');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Hyundai','Active','255826','Elantra','1700','2015');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Hyundai','Active','997724','Venue','1650','2018');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Hyundai','Active','931729','Elantra','1700','2016');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Hyundai','Out of Service','508626','Elantra','1700','2020');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Hyundai','Out of Service','579035','Verna','1200','2020');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Hyundai','Out of Service','564230','Venue','1650','2015');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Hyundai','Active','940963','Creta','1850','2017');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Hyundai','Out of Service','437117','Alcazar','2200','2017');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Volkswagen','Out of Service','435600','Taigun','2300','2018');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Volkswagen','Out of Service','732644','Vento','1200','2020');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Volkswagen','Out of Service','119880','Taigun','2650','2016');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Volkswagen','Active','796710','Polo','2350','2018');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Volkswagen','Active','776255','Vento','1200','2020');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Volkswagen','Active','297103','Taigun','2300','2020');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Volkswagen','Out of Service','262399','Vento','1200','2017');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Volkswagen','Active','154700','Taigun','2650','2018');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Volkswagen','Active','732180','Polo','2350','2017');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Volkswagen','Out of Service','102374','Taigun','2650','2020');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Volkswagen','Out of Service','705918','Polo','2350','2020');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Volkswagen','Out of Service','395161','Vento','1700','2016');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Volkswagen','Active','725065','Vento','1200','2018');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Volkswagen','Active','736672','Taigun','2650','2016');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Volkswagen','Out of Service','432278','Taigun','2300','2020');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Volkswagen','Active','279290','Taigun','2300','2016');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Volkswagen','Out of Service','626870','Polo','2350','2018');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Volkswagen','Out of Service','146044','Polo','2350','2019');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Volkswagen','Active','116604','Polo','2350','2018');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Volkswagen','Active','515897','Vento','1700','2020');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Jeep','Active','626890','Wranlgler','5650','2019');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Jeep','Active','980042','Wranlgler','6700','2016');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Jeep','Active','225209','Compass','4200','2016');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Jeep','Active','634273','Compass','4300','2017');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Jeep','Out of Service','802700','Wranlgler','5650','2017');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Jeep','Out of Service','152426','Compass','4300','2018');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Jeep','Active','183063','Compass','4350','2017');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Jeep','Out of Service','722135','Compass','4200','2018');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Jeep','Active','608998','Wranlgler','5650','2017');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Jeep','Out of Service','462568','Compass','4200','2017');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Toyota','Out of Service','288900','Camry','2700','2018');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Toyota','Out of Service','202942','Camry','2650','2017');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Toyota','Active','496403','Fortuner','2350','2017');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Toyota','Active','923032','Glanza','3100','2020');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Toyota','Active','632076','Fortuner','2500','2018');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Toyota','Out of Service','639249','Camry','2650','2020');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Toyota','Active','564073','Camry','2650','2019');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Toyota','Out of Service','849111','Fortuner','2350','2020');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Toyota','Out of Service','512791','Fortuner','2350','2015');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Toyota','Out of Service','451347','Fortuner','2350','2016');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('BMW','Out of Service','502092','X5','9650','2016');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('BMW','Out of Service','456435','M2','9500','2015');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('BMW','Out of Service','211712','X7','8200','2020');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('BMW','Active','531552','X5','9650','2019');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('BMW','Out of Service','496017','X7','8200','2017');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('BMW','Out of Service','611391','X5','9650','2017');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('BMW','Active','696894','X1','8350','2018');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('BMW','Active','892473','M2','9500','2017');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('BMW','Active','382939','Z4','9100','2020');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('BMW','Active','934815','X5','9650','2017');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Porsche','Active','240900','Macan','13650','2016');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Porsche','Active','616900','Taycan','15700','2016');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Porsche','Out of Service','885000','Cayenne Coupe','13500','2016');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Porsche','Active','499450','911','12350','2016');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Porsche','Active','914955','Macan','13650','2020');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Porsche','Active','146371','911','12350','2020');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Porsche','Active','522450','Taycan','15700','2019');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Porsche','Active','942989','Panamera','12200','2017');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Porsche','Out of Service','320259','Cayenne Coupe','13500','2018');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Porsche','Active','559972','Macan','13650','2020');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Rolls-Royce','Out of Service','896004','Phantom','313500','2018');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Rolls-Royce','Active','386601','Cullinan','242200','2015');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Rolls-Royce','Out of Service','304008','Dawn','233100','2019');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Rolls-Royce','Out of Service','167715','Cullinan','242200','2017');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Rolls-Royce','Active','859698','Phantom','222350','2015');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Rolls-Royce','Out of Service','329996','Phantom','313500','2018');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Rolls-Royce','Out of Service','344899','Wraith','215700','2018');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Rolls-Royce','Active','836581','Cullinan','242200','2018');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Rolls-Royce','Out of Service','207259','Phantom','222350','2020');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Rolls-Royce','Active','486686','Ghost','143650','2018');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Lamborghini','Active','151752','Huracan EVO','313500','2017');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Lamborghini','Out of Service','512967','Urus','222350','2015');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Lamborghini','Out of Service','908265','Aventador','215700','2015');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Lamborghini','Out of Service','966741','Urus','222350','2019');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Lamborghini','Out of Service','610900','Urus','222350','2016');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Lamborghini','Out of Service','783907','Aventador','215700','2019');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Lamborghini','Active','150922','Aventador','215700','2016');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Lamborghini','Out of Service','608671','Urus','233100','2016');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Lamborghini','Active','363255','Aventador','143650','2019');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Lamborghini','Out of Service','428381','Urus','222350','2019');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Bugatti','Out of Service','608168','Divo','242200','2015');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Bugatti','Out of Service','785953','Veyron','143650','2020');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Bugatti','Out of Service','207840','Veyron','233100','2020');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Bugatti','Out of Service','476373','Veyron','313500','2018');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Bugatti','Active','792950','Divo','215700','2017');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Bugatti','Active','548189','Divo','215700','2015');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Bugatti','Active','669808','Divo','215700','2015');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Bugatti','Out of Service','478531','Divo','222350','2016');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Bugatti','Out of Service','646403','Divo','222350','2020');
+INSERT INTO car(Brand, Car_status, Plate_Id,Model, Price,Year) VALUES ('Bugatti','Out of Service','827020','Veyron','233100','2016');
+
+INSERT INTO car_color (Car_Id, Color) VALUES ('1','Grape Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('1','black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('2','Arctic Ice');
+INSERT INTO car_color (Car_Id, Color) VALUES ('2','Midnight Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('3','Space Gray');
+INSERT INTO car_color (Car_Id, Color) VALUES ('3','Midnight Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('4','Soprano Purple Pearl');
+INSERT INTO car_color (Car_Id, Color) VALUES ('4','Lowrider Green');
+INSERT INTO car_color (Car_Id, Color) VALUES ('5','Apple Red Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('5','Lowrider Green');
+INSERT INTO car_color (Car_Id, Color) VALUES ('6','Sunburst Orange Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('6','Brilliant Orange');
+INSERT INTO car_color (Car_Id, Color) VALUES ('7','Sunburst Orange Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('7','white');
+INSERT INTO car_color (Car_Id, Color) VALUES ('8','Atlas Orange Pearl');
+INSERT INTO car_color (Car_Id, Color) VALUES ('8','Midnight Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('9','Arctic Ice');
+INSERT INTO car_color (Car_Id, Color) VALUES ('9','Beige');
+INSERT INTO car_color (Car_Id, Color) VALUES ('10','Arctic Ice');
+INSERT INTO car_color (Car_Id, Color) VALUES ('10','white');
+INSERT INTO car_color (Car_Id, Color) VALUES ('11','Matt black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('11','black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('12','Satin Silver Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('12','black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('13','Space Gray');
+INSERT INTO car_color (Car_Id, Color) VALUES ('13','white');
+INSERT INTO car_color (Car_Id, Color) VALUES ('14','Sunburst Orange Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('14','Lowrider Green');
+INSERT INTO car_color (Car_Id, Color) VALUES ('15','cosmic Carbon UltraFlake');
+INSERT INTO car_color (Car_Id, Color) VALUES ('15','Midnight Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('16','Apple Red Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('16','Midnight Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('17','Paradise Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('17','white');
+INSERT INTO car_color (Car_Id, Color) VALUES ('18','Merlot Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('18','white');
+INSERT INTO car_color (Car_Id, Color) VALUES ('19','Paradise Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('19','Beige');
+INSERT INTO car_color (Car_Id, Color) VALUES ('20','Atlas Orange Pearl');
+INSERT INTO car_color (Car_Id, Color) VALUES ('20','Midnight Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('21','Atlas Orange Pearl');
+INSERT INTO car_color (Car_Id, Color) VALUES ('21','white');
+INSERT INTO car_color (Car_Id, Color) VALUES ('22','cosmic Carbon UltraFlake');
+INSERT INTO car_color (Car_Id, Color) VALUES ('22','Lowrider Green');
+INSERT INTO car_color (Car_Id, Color) VALUES ('23','Atlas Orange Pearl');
+INSERT INTO car_color (Car_Id, Color) VALUES ('23','Beige');
+INSERT INTO car_color (Car_Id, Color) VALUES ('24','Merlot Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('24','white');
+INSERT INTO car_color (Car_Id, Color) VALUES ('25','Space Gray');
+INSERT INTO car_color (Car_Id, Color) VALUES ('25','Brilliant Orange');
+INSERT INTO car_color (Car_Id, Color) VALUES ('26','Space Gray');
+INSERT INTO car_color (Car_Id, Color) VALUES ('26','Midnight Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('27','Apple Red Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('27','white');
+INSERT INTO car_color (Car_Id, Color) VALUES ('28','Satin Silver Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('28','black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('29','Matt black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('29','black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('30','Arctic Ice');
+INSERT INTO car_color (Car_Id, Color) VALUES ('30','Lowrider Green');
+INSERT INTO car_color (Car_Id, Color) VALUES ('31','Grape Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('31','Brilliant Orange');
+INSERT INTO car_color (Car_Id, Color) VALUES ('32','Apple Red Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('32','black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('33','Sunburst Orange Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('33','Beige');
+INSERT INTO car_color (Car_Id, Color) VALUES ('34','Satin Silver Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('34','Lowrider Green');
+INSERT INTO car_color (Car_Id, Color) VALUES ('35','Merlot Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('35','Midnight Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('36','Brown');
+INSERT INTO car_color (Car_Id, Color) VALUES ('36','Lowrider Green');
+INSERT INTO car_color (Car_Id, Color) VALUES ('37','Sunburst Orange Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('37','Midnight Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('38','Arctic Ice');
+INSERT INTO car_color (Car_Id, Color) VALUES ('38','Beige');
+INSERT INTO car_color (Car_Id, Color) VALUES ('39','Space Gray');
+INSERT INTO car_color (Car_Id, Color) VALUES ('39','white');
+INSERT INTO car_color (Car_Id, Color) VALUES ('40','Atlas Orange Pearl');
+INSERT INTO car_color (Car_Id, Color) VALUES ('40','white');
+INSERT INTO car_color (Car_Id, Color) VALUES ('41','Sunburst Orange Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('41','Lowrider Green');
+INSERT INTO car_color (Car_Id, Color) VALUES ('42','Space Gray');
+INSERT INTO car_color (Car_Id, Color) VALUES ('42','white');
+INSERT INTO car_color (Car_Id, Color) VALUES ('43','Paradise Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('43','white');
+INSERT INTO car_color (Car_Id, Color) VALUES ('44','Brown');
+INSERT INTO car_color (Car_Id, Color) VALUES ('44','Brilliant Orange');
+INSERT INTO car_color (Car_Id, Color) VALUES ('45','Brown');
+INSERT INTO car_color (Car_Id, Color) VALUES ('45','Lowrider Green');
+INSERT INTO car_color (Car_Id, Color) VALUES ('46','Matt black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('46','white');
+INSERT INTO car_color (Car_Id, Color) VALUES ('47','Space Gray');
+INSERT INTO car_color (Car_Id, Color) VALUES ('47','white');
+INSERT INTO car_color (Car_Id, Color) VALUES ('48','Grape Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('48','Beige');
+INSERT INTO car_color (Car_Id, Color) VALUES ('49','Apple Red Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('49','Beige');
+INSERT INTO car_color (Car_Id, Color) VALUES ('50','Apple Red Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('50','Beige');
+INSERT INTO car_color (Car_Id, Color) VALUES ('51','Apple Red Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('51','Midnight Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('52','Arctic Ice');
+INSERT INTO car_color (Car_Id, Color) VALUES ('52','Midnight Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('53','Brown');
+INSERT INTO car_color (Car_Id, Color) VALUES ('53','Brilliant Orange');
+INSERT INTO car_color (Car_Id, Color) VALUES ('54','Brown');
+INSERT INTO car_color (Car_Id, Color) VALUES ('54','Brilliant Orange');
+INSERT INTO car_color (Car_Id, Color) VALUES ('55','Atlas Orange Pearl');
+INSERT INTO car_color (Car_Id, Color) VALUES ('55','white');
+INSERT INTO car_color (Car_Id, Color) VALUES ('56','Space Gray');
+INSERT INTO car_color (Car_Id, Color) VALUES ('56','black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('57','cosmic Carbon UltraFlake');
+INSERT INTO car_color (Car_Id, Color) VALUES ('57','black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('58','Sunburst Orange Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('58','Lowrider Green');
+INSERT INTO car_color (Car_Id, Color) VALUES ('59','Merlot Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('59','Brilliant Orange');
+INSERT INTO car_color (Car_Id, Color) VALUES ('60','Brown');
+INSERT INTO car_color (Car_Id, Color) VALUES ('60','Brilliant Orange');
+INSERT INTO car_color (Car_Id, Color) VALUES ('61','Matt black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('61','black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('62','Paradise Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('62','white');
+INSERT INTO car_color (Car_Id, Color) VALUES ('63','Sunburst Orange Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('63','Brilliant Orange');
+INSERT INTO car_color (Car_Id, Color) VALUES ('64','Merlot Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('64','Brilliant Orange');
+INSERT INTO car_color (Car_Id, Color) VALUES ('65','Apple Red Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('65','black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('66','Atlas Orange Pearl');
+INSERT INTO car_color (Car_Id, Color) VALUES ('66','Beige');
+INSERT INTO car_color (Car_Id, Color) VALUES ('67','Paradise Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('67','Midnight Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('68','Paradise Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('68','black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('69','Paradise Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('69','Midnight Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('70','Brown');
+INSERT INTO car_color (Car_Id, Color) VALUES ('70','Brilliant Orange');
+INSERT INTO car_color (Car_Id, Color) VALUES ('71','Soprano Purple Pearl');
+INSERT INTO car_color (Car_Id, Color) VALUES ('71','Brilliant Orange');
+INSERT INTO car_color (Car_Id, Color) VALUES ('72','Sunburst Orange Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('72','white');
+INSERT INTO car_color (Car_Id, Color) VALUES ('73','Apple Red Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('73','Midnight Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('74','Brown');
+INSERT INTO car_color (Car_Id, Color) VALUES ('74','black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('75','Brown');
+INSERT INTO car_color (Car_Id, Color) VALUES ('75','Lowrider Green');
+INSERT INTO car_color (Car_Id, Color) VALUES ('76','Apple Red Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('76','black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('77','Space Gray');
+INSERT INTO car_color (Car_Id, Color) VALUES ('77','Midnight Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('78','Arctic Ice');
+INSERT INTO car_color (Car_Id, Color) VALUES ('78','Midnight Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('79','Satin Silver Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('79','Brilliant Orange');
+INSERT INTO car_color (Car_Id, Color) VALUES ('80','Soprano Purple Pearl');
+INSERT INTO car_color (Car_Id, Color) VALUES ('80','Midnight Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('81','Soprano Purple Pearl');
+INSERT INTO car_color (Car_Id, Color) VALUES ('81','Midnight Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('82','Arctic Ice');
+INSERT INTO car_color (Car_Id, Color) VALUES ('82','Beige');
+INSERT INTO car_color (Car_Id, Color) VALUES ('83','Arctic Ice');
+INSERT INTO car_color (Car_Id, Color) VALUES ('83','black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('84','Sunburst Orange Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('84','Brilliant Orange');
+INSERT INTO car_color (Car_Id, Color) VALUES ('85','Paradise Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('85','Beige');
+INSERT INTO car_color (Car_Id, Color) VALUES ('86','Sunburst Orange Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('86','black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('87','Brown');
+INSERT INTO car_color (Car_Id, Color) VALUES ('87','Beige');
+INSERT INTO car_color (Car_Id, Color) VALUES ('88','Atlas Orange Pearl');
+INSERT INTO car_color (Car_Id, Color) VALUES ('88','white');
+INSERT INTO car_color (Car_Id, Color) VALUES ('89','cosmic Carbon UltraFlake');
+INSERT INTO car_color (Car_Id, Color) VALUES ('89','white');
+INSERT INTO car_color (Car_Id, Color) VALUES ('90','Grape Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('90','Beige');
+INSERT INTO car_color (Car_Id, Color) VALUES ('91','Satin Silver Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('91','Brilliant Orange');
+INSERT INTO car_color (Car_Id, Color) VALUES ('92','Paradise Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('92','Lowrider Green');
+INSERT INTO car_color (Car_Id, Color) VALUES ('93','Space Gray');
+INSERT INTO car_color (Car_Id, Color) VALUES ('93','Midnight Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('94','Paradise Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('94','Brilliant Orange');
+INSERT INTO car_color (Car_Id, Color) VALUES ('95','Merlot Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('95','Brilliant Orange');
+INSERT INTO car_color (Car_Id, Color) VALUES ('96','Paradise Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('96','Beige');
+INSERT INTO car_color (Car_Id, Color) VALUES ('97','Sunburst Orange Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('97','black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('98','Matt black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('98','Beige');
+INSERT INTO car_color (Car_Id, Color) VALUES ('99','Space Gray');
+INSERT INTO car_color (Car_Id, Color) VALUES ('99','Lowrider Green');
+INSERT INTO car_color (Car_Id, Color) VALUES ('100','Grape Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('100','Lowrider Green');
+INSERT INTO car_color (Car_Id, Color) VALUES ('101','Brown');
+INSERT INTO car_color (Car_Id, Color) VALUES ('101','Lowrider Green');
+INSERT INTO car_color (Car_Id, Color) VALUES ('102','Satin Silver Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('102','Brilliant Orange');
+INSERT INTO car_color (Car_Id, Color) VALUES ('103','Arctic Ice');
+INSERT INTO car_color (Car_Id, Color) VALUES ('103','Midnight Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('104','Matt black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('104','Midnight Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('105','Apple Red Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('105','white');
+INSERT INTO car_color (Car_Id, Color) VALUES ('106','Satin Silver Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('106','Midnight Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('107','Sunburst Orange Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('107','Midnight Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('108','Matt black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('108','white');
+INSERT INTO car_color (Car_Id, Color) VALUES ('109','cosmic Carbon UltraFlake');
+INSERT INTO car_color (Car_Id, Color) VALUES ('109','Beige');
+INSERT INTO car_color (Car_Id, Color) VALUES ('110','Sunburst Orange Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('110','Lowrider Green');
+INSERT INTO car_color (Car_Id, Color) VALUES ('111','cosmic Carbon UltraFlake');
+INSERT INTO car_color (Car_Id, Color) VALUES ('111','black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('112','Satin Silver Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('112','black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('113','Grape Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('113','Brilliant Orange');
+INSERT INTO car_color (Car_Id, Color) VALUES ('114','Sunburst Orange Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('114','Lowrider Green');
+INSERT INTO car_color (Car_Id, Color) VALUES ('115','Arctic Ice');
+INSERT INTO car_color (Car_Id, Color) VALUES ('115','Lowrider Green');
+INSERT INTO car_color (Car_Id, Color) VALUES ('116','Soprano Purple Pearl');
+INSERT INTO car_color (Car_Id, Color) VALUES ('116','Lowrider Green');
+INSERT INTO car_color (Car_Id, Color) VALUES ('117','Paradise Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('117','Midnight Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('118','Paradise Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('118','black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('119','Brown');
+INSERT INTO car_color (Car_Id, Color) VALUES ('119','black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('120','Space Gray');
+INSERT INTO car_color (Car_Id, Color) VALUES ('120','white');
+INSERT INTO car_color (Car_Id, Color) VALUES ('121','Grape Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('121','black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('122','Apple Red Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('122','Midnight Blue');
+INSERT INTO car_color (Car_Id, Color) VALUES ('123','Soprano Purple Pearl');
+INSERT INTO car_color (Car_Id, Color) VALUES ('123','white');
+INSERT INTO car_color (Car_Id, Color) VALUES ('124','Arctic Ice');
+INSERT INTO car_color (Car_Id, Color) VALUES ('124','black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('125','Merlot Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('125','Brilliant Orange');
+INSERT INTO car_color (Car_Id, Color) VALUES ('126','Satin Silver Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('126','Lowrider Green');
+INSERT INTO car_color (Car_Id, Color) VALUES ('127','Sunburst Orange Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('127','Beige');
+INSERT INTO car_color (Car_Id, Color) VALUES ('128','Matt black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('128','Beige');
+INSERT INTO car_color (Car_Id, Color) VALUES ('129','Apple Red Metallic');
+INSERT INTO car_color (Car_Id, Color) VALUES ('129','Brilliant Orange');
+INSERT INTO car_color (Car_Id, Color) VALUES ('130','Matt black');
+INSERT INTO car_color (Car_Id, Color) VALUES ('130','white');
+
+INSERT INTO `Office` (`Country_Code`, `Country_Name`) VALUES
+('AD', 'Andorra'),
+('AE', 'United Arab Emirates'),
+('AF', 'Afghanistan'),
+('AG', 'Antigua and Barbuda'),
+('AI', 'Anguilla'),
+('AL', 'Albania'),
+('AM', 'Armenia'),
+('AO', 'Angola'),
+('AQ', 'Antarctica'),
+('AR', 'Argentina'),
+('AS', 'American Samoa'),
+('AT', 'Austria'),
+('AU', 'Australia'),
+('AW', 'Aruba'),
+('AX', 'Åland Islands'),
+('AZ', 'Azerbaijan'),
+('BA', 'Bosnia and Herzegovina'),
+('BB', 'Barbados'),
+('BD', 'Bangladesh'),
+('BE', 'Belgium'),
+('BF', 'Burkina Faso'),
+('BG', 'Bulgaria'),
+('BH', 'Bahrain'),
+('BI', 'Burundi'),
+('BJ', 'Benin'),
+('BL', 'Saint Barthélemy'),
+('BM', 'Bermuda'),
+('BN', 'Brunei Darussalam'),
+('BO', 'Bolivia, Plurinational State of'),
+('BQ', 'Bonaire, Sint Eustatius and Saba'),
+('BR', 'Brazil'),
+('BS', 'Bahamas'),
+('BT', 'Bhutan'),
+('BV', 'Bouvet Island'),
+('BW', 'Botswana'),
+('BY', 'Belarus'),
+('BZ', 'Belize'),
+('CA', 'Canada'),
+('CC', 'Cocos (Keeling) Islands'),
+('CD', 'Congo, the Democratic Republic of the'),
+('CF', 'Central African Republic'),
+('CG', 'Congo'),
+('CH', 'Switzerland'),
+('CI', 'Côte d\'Ivoire'),
+('CK', 'Cook Islands'),
+('CL', 'Chile'),
+('CM', 'Cameroon'),
+('CN', 'China'),
+('CO', 'Colombia'),
+('CR', 'Costa Rica'),
+('CU', 'Cuba'),
+('CV', 'Cape Verde'),
+('CW', 'Curaçao'),
+('CX', 'Christmas Island'),
+('CY', 'Cyprus'),
+('CZ', 'Czech Republic'),
+('DE', 'Germany'),
+('DJ', 'Djibouti'),
+('DK', 'Denmark'),
+('DM', 'Dominica'),
+('DO', 'Dominican Republic'),
+('DZ', 'Algeria'),
+('EC', 'Ecuador'),
+('EE', 'Estonia'),
+('EG', 'Egypt'),
+('EH', 'Western Sahara'),
+('ER', 'Eritrea'),
+('ES', 'Spain'),
+('ET', 'Ethiopia'),
+('FI', 'Finland'),
+('FJ', 'Fiji'),
+('FK', 'Falkland Islands (Malvinas)'),
+('FM', 'Micronesia, Federated States of'),
+('FO', 'Faroe Islands'),
+('FR', 'France'),
+('GA', 'Gabon'),
+('GB', 'United Kingdom'),
+('GD', 'Grenada'),
+('GE', 'Georgia'),
+('GF', 'French Guiana'),
+('GG', 'Guernsey'),
+('GH', 'Ghana'),
+('GI', 'Gibraltar'),
+('GL', 'Greenland'),
+('GM', 'Gambia'),
+('GN', 'Guinea'),
+('GP', 'Guadeloupe'),
+('GQ', 'Equatorial Guinea'),
+('GR', 'Greece'),
+('GS', 'South Georgia and the South Sandwich Islands'),
+('GT', 'Guatemala'),
+('GU', 'Guam'),
+('GW', 'Guinea-Bissau'),
+('GY', 'Guyana'),
+('HK', 'Hong Kong'),
+('HM', 'Heard Island and McDonald Islands'),
+('HN', 'Honduras'),
+('HR', 'Croatia'),
+('HT', 'Haiti'),
+('HU', 'Hungary'),
+('ID', 'Indonesia'),
+('IE', 'Ireland'),
+('IL', 'Israel'),
+('IM', 'Isle of Man'),
+('IN', 'India'),
+('IO', 'British Indian Ocean Territory'),
+('IQ', 'Iraq'),
+('IR', 'Iran, Islamic Republic of'),
+('IS', 'Iceland'),
+('IT', 'Italy'),
+('JE', 'Jersey'),
+('JM', 'Jamaica'),
+('JO', 'Jordan'),
+('JP', 'Japan'),
+('KE', 'Kenya'),
+('KG', 'Kyrgyzstan'),
+('KH', 'Cambodia'),
+('KI', 'Kiribati'),
+('KM', 'Comoros'),
+('KN', 'Saint Kitts and Nevis'),
+('KP', 'Korea, Democratic People\'s Republic of'),
+('KR', 'Korea, Republic of'),
+('KW', 'Kuwait'),
+('KY', 'Cayman Islands'),
+('KZ', 'Kazakhstan'),
+('LA', 'Lao People\'s Democratic Republic'),
+('LB', 'Lebanon'),
+('LC', 'Saint Lucia'),
+('LI', 'Liechtenstein'),
+('LK', 'Sri Lanka'),
+('LR', 'Liberia'),
+('LS', 'Lesotho'),
+('LT', 'Lithuania'),
+('LU', 'Luxembourg'),
+('LV', 'Latvia'),
+('LY', 'Libya'),
+('MA', 'Morocco'),
+('MC', 'Monaco'),
+('MD', 'Moldova, Republic of'),
+('ME', 'Montenegro'),
+('MF', 'Saint Martin (French part)'),
+('MG', 'Madagascar'),
+('MH', 'Marshall Islands'),
+('MK', 'Macedonia, the former Yugoslav Republic of'),
+('ML', 'Mali'),
+('MM', 'Myanmar'),
+('MN', 'Mongolia'),
+('MO', 'Macao'),
+('MP', 'Northern Mariana Islands'),
+('MQ', 'Martinique'),
+('MR', 'Mauritania'),
+('MS', 'Montserrat'),
+('MT', 'Malta'),
+('MU', 'Mauritius'),
+('MV', 'Maldives'),
+('MW', 'Malawi'),
+('MX', 'Mexico'),
+('MY', 'Malaysia'),
+('MZ', 'Mozambique'),
+('NA', 'Namibia'),
+('NC', 'New Caledonia'),
+('NE', 'Niger'),
+('NF', 'Norfolk Island'),
+('NG', 'Nigeria'),
+('NI', 'Nicaragua'),
+('NL', 'Netherlands'),
+('NO', 'Norway'),
+('NP', 'Nepal'),
+('NR', 'Nauru'),
+('NU', 'Niue'),
+('NZ', 'New Zealand'),
+('OM', 'Oman'),
+('PA', 'Panama'),
+('PE', 'Peru'),
+('PF', 'French Polynesia'),
+('PG', 'Papua New Guinea'),
+('PH', 'Philippines'),
+('PK', 'Pakistan'),
+('PL', 'Poland'),
+('PM', 'Saint Pierre and Miquelon'),
+('PN', 'Pitcairn'),
+('PR', 'Puerto Rico'),
+('PS', 'Palestinian Territory, Occupied'),
+('PT', 'Portugal'),
+('PW', 'Palau'),
+('PY', 'Paraguay'),
+('QA', 'Qatar'),
+('RE', 'Réunion'),
+('RO', 'Romania'),
+('RS', 'Serbia'),
+('RU', 'Russian Federation'),
+('RW', 'Rwanda'),
+('SA', 'Saudi Arabia'),
+('SB', 'Solomon Islands'),
+('SC', 'Seychelles'),
+('SD', 'Sudan'),
+('SE', 'Sweden'),
+('SG', 'Singapore'),
+('SH', 'Saint Helena, Ascension and Tristan da Cunha'),
+('SI', 'Slovenia'),
+('SJ', 'Svalbard and Jan Mayen'),
+('SK', 'Slovakia'),
+('SL', 'Sierra Leone'),
+('SM', 'San Marino'),
+('SN', 'Senegal'),
+('SO', 'Somalia'),
+('SR', 'Suriname'),
+('SS', 'South Sudan'),
+('ST', 'Sao Tome and Principe'),
+('SV', 'El Salvador'),
+('SX', 'Sint Maarten (Dutch part)'),
+('SY', 'Syrian Arab Republic'),
+('SZ', 'Swaziland'),
+('TC', 'Turks and Caicos Islands'),
+('TD', 'Chad'),
+('TF', 'French Southern Territories'),
+('TG', 'Togo'),
+('TH', 'Thailand'),
+('TJ', 'Tajikistan'),
+('TK', 'Tokelau'),
+('TL', 'Timor-Leste'),
+('TM', 'Turkmenistan'),
+('TN', 'Tunisia'),
+('TO', 'Tonga'),
+('TR', 'Turkey'),
+('TT', 'Trinidad and Tobago'),
+('TV', 'Tuvalu'),
+('TW', 'Taiwan, Province of China'),
+('TZ', 'Tanzania, United Republic of'),
+('UA', 'Ukraine'),
+('UG', 'Uganda'),
+('UM', 'United States Minor Outlying Islands'),
+('US', 'United States'),
+('UY', 'Uruguay'),
+('UZ', 'Uzbekistan'),
+('VA', 'Holy See (Vatican City State)'),
+('VC', 'Saint Vincent and the Grenadines'),
+('VE', 'Venezuela, Bolivarian Republic of'),
+('VG', 'Virgin Islands, British'),
+('VI', 'Virgin Islands, U.S.'),
+('VN', 'Viet Nam'),
+('VU', 'Vanuatu'),
+('WF', 'Wallis and Futuna'),
+('WS', 'Samoa'),
+('YE', 'Yemen'),
+('YT', 'Mayotte'),
+('ZA', 'South Africa'),
+('ZM', 'Zambia'),
+('ZW', 'Zimbabwe');
+
+INSERT INTO decrypted_account (Email,Password) VALUES('fake1@gmail.com','Fakepass!1');
+INSERT INTO decrypted_account (Email,Password) VALUES('fake2@gmail.com','Fakepass!2');
+INSERT INTO decrypted_account (Email,Password) VALUES('fake3@gmail.com','Fakepass!3');
+INSERT INTO decrypted_account (Email,Password) VALUES('fake4@gmail.com','Fakepass!4');
+INSERT INTO decrypted_account (Email,Password) VALUES('fake5@gmail.com','Fakepass!5');
+INSERT INTO decrypted_account (Email,Password) VALUES('fake6@gmail.com','Fakepass!6');
+INSERT INTO decrypted_account (Email,Password) VALUES('fake7@gmail.com','Fakepass!7');
+INSERT INTO decrypted_account (Email,Password) VALUES('fake8@gmail.com','Fakepass!8');
+INSERT INTO decrypted_account (Email,Password) VALUES('fake9@gmail.com','Fakepass!9');
+INSERT INTO decrypted_account (Email,Password) VALUES('fake10@gmail.com','Fakepass!10');
+
+
+INSERT INTO Customer (First,Last,SSN,DOB,Email) VALUES('Henry','MILLER', '143782613','1998-3-28', 'fake1@gmail.com');
+INSERT INTO Customer (First,Last,SSN,DOB,Email) VALUES('Lucas','DAVIS','736185050','1981-12-23', 'fake2@gmail.com');
+INSERT INTO Customer (First,Last,SSN,DOB,Email) VALUES('Oliver','RODRIGUEZ','323098597','1987-8-26', 'fake3@gmail.com');
+INSERT INTO Customer (First,Last,SSN,DOB,Email) VALUES('James','MARTINEZ','955709585','1996-2-1', 'fake4@gmail.com');
+INSERT INTO Customer (First,Last,SSN,DOB,Email) VALUES('William','HERNANDEZ','402431689','1971-7-2', 'fake5@gmail.com');
+INSERT INTO Customer (First,Last,SSN,DOB,Email) VALUES('Noah','GONZALEZ','314368665','1991-10-25', 'fake6@gmail.com');
+INSERT INTO Customer (First,Last,SSN,DOB,Email) VALUES('Liam','WILSON','297300273','1970-8-10', 'fake7@gmail.com');
+INSERT INTO Customer (First,Last,SSN,DOB,Email) VALUES('Mark','ANDERSON','919904432','1967-1-12', 'fake8@gmail.com');
+INSERT INTO Customer (First,Last,SSN,DOB,Email) VALUES('Olivia','THOMAS','190179772','1957-1-13', 'fake9@gmail.com');
+INSERT INTO Customer (First,Last,SSN,DOB,Email) VALUES('Emma','MOORE','793951333','1992-2-19', 'fake10@gmail.com');
+
+
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('87692','Abel', 'Alabama', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('75139','Benton', 'Alabama', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('10451','Chelsea', 'Alabama', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('86758','DixonVille', 'Alabama', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('80793','Fulton Springs', 'Alabama', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('55245','Aleknagik', 'Alaska', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('90899','Brevig Msn', 'Alaska', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('53824','Chickaloon', 'Alaska', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('74883','Diomede', 'Alaska', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('19520','Halibut Cove', 'Alaska', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('87768','Arivaca', 'Arizona', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('95024','Bellemont', 'Arizona', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('18644','Cave Creek', 'Arizona', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('14091','Dudleyville', 'Arizona', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('46299','Gleeson', 'Arizona', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('65619','Alread', 'Arkansas', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('14021','Amagon', 'Arkansas', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('14060','Bella Vista', 'Arkansas', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('76225','Cedarville', 'Arkansas', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('79739','Columbus', 'Arkansas', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('69910','Agoura Hills', 'California', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('37646','Alisal', 'California', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('97575','Arcadia', 'California', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('56555','Big Bear City', 'California', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('45821','Cape Horn', 'California', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('13890','Basalt', 'Colorado', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('19849','Bristol', 'Colorado', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('75359','Central City', 'Colorado', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('74813','Colorado City', 'Colorado', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('99445','Cuchara', 'Colorado', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('17472','Bozrah', 'Connecticut', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('66074','Colbrook', 'Connecticut', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('86364','East Granby', 'Connecticut', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('71451','Gales Ferry', 'Connecticut', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('80034','Higganum', 'Connecticut', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('56405','Houston', 'Delaware', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('86209','Wyoming', 'Delaware', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('53723','Viola', 'Delaware', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('55597','Georgetown', 'Delaware', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('60619','Frederica', 'Delaware', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('69790','Amelia Island', 'Florida', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('25866','Macdill Afb', 'Florida', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('88974','Lxhtchee Grvs', 'Florida', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('78249','Ludlam', 'Florida', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('19571','Loxahatchee', 'Florida', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('75756','Amity', 'Georgia', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('22149','Lookout Mountain', 'Georgia', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('89498','Lyons', 'Georgia', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('85879','Atlanta Gas Light', 'Georgia', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('74587','Marine Corps Logistics Base', 'Georgia', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('91597','Hanalei', 'Hawaii', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('75032','Makaweli', 'Hawaii', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('70044','M C B H Kaneohe Bay', 'Hawaii', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('89977','Lawai', 'Hawaii', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('94636','Eleele', 'Hawaii', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('70733','Archer', 'Idaho', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('47443','Linrose', 'Idaho', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('64667','Lewiston', 'Idaho', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('41820','Leadore', 'Idaho', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('99863','Marsing', 'Idaho', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('83243','Alvin', 'Illinois', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('27694','Little Mackinaw', 'Illinois', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('85318','Littleton', 'Illinois', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('50120','Longview', 'Illinois', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('56359','Lorenzo', 'Illinois', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('49265','Luray', 'Indiana', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('81361','Majenica', 'Indiana', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('67026','Mars Hill', 'Indiana', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('78287','Matthews', 'Indiana', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('10109','Maysville', 'Indiana', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('30490','Liberty', 'Iowa', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('30369','Little Cedar', 'Iowa', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('69604','Aspinwall', 'Iowa', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('53607','Maple Heights', 'Iowa', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('34522','Marquisville', 'Iowa', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('89901','Angola', 'Kansas', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('32581','Lost Springs', 'Kansas', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('71484','Macksville', 'Kansas', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('56278','Baxter Spgs', 'Kansas', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('94349','Big Bow', 'Kansas', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('12373','Allock', 'Kentucky', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('66013','Lees Lick', 'Kentucky', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('68494','Lenoxburg', 'Kentucky', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('25441','Linefork', 'Kentucky', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('41643','Load', 'Kentucky', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('62300','Alexandria', 'Louisiana', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('62846','Lake Saint John', 'Louisiana', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('26982','Larto', 'Louisiana', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('31083','Leeville', 'Louisiana', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('72817','Little Egypt', 'Louisiana', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('40938','Ashland', 'Maine', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('61537','Minturn', 'Maine', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('23864','Morrill', 'Maine', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('48332','N New Portland', 'Maine', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('53219','New Harbor', 'Maine', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('83075','Bank Of America', 'Maryland', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('54677','Maryland Line', 'Maryland', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('89953','Middle River', 'Maryland', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('44167','Midlothian', 'Maryland', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('50590','Millington', 'Maryland', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('45646','Newton Hlds', 'Massachusetts', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('52301','No Grafton', 'Massachusetts', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('62401','North Brookfield', 'Massachusetts', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('76109','North Hadley', 'Massachusetts', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('54033','North Reading', 'Massachusetts', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('24062','Andrews University', 'Michigan', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('16992','Lapeer', 'Michigan', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('51572','Lewiston', 'Michigan', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('26034','Luzerne', 'Michigan', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('25732','Mancelona', 'Michigan', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('29744','Mabel', 'Minnesota', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('60027','Macys', 'Minnesota', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('92940','Mahtomedi', 'Minnesota', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('36020','Manchester', 'Minnesota', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('26018','Backus', 'Minnesota', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('21176','Arlington', 'Mississippi', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('26631','Marks', 'Mississippi', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('72253','Barrontown', 'Mississippi', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('60466','Bayside Park', 'Mississippi', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('80787','Belen', 'Mississippi', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('96813','Alley Springs', 'Missouri', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('14354','Lemay', 'Missouri', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('64537','Arcola', 'Missouri', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('32517','Lk Lotawana', 'Missouri', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('14588','Barnhart', 'Missouri', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('35269','Absarokee', 'Montana', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('72897','Lodge Grass', 'Montana', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('32337','Belfry', 'Montana', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('55535','Monarch', 'Montana', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('74547','Cascade', 'Montana', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('18527','Arapahoe', 'Nebraska', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('94316','Martell', 'Nebraska', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('80507','Bartlett', 'Nebraska', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('81362','Milburn', 'Nebraska', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('68757','Bennington', 'Nebraska', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('47861','Cherry Creek', 'Nevada', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('23895','Patrick', 'Nevada', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('28942','Red House', 'Nevada', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('94143','Riverside', 'Nevada', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('45614','Sandy Valley', 'Nevada', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('80968','Boscawen', 'New Hampshire', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('63933','N Salem', 'New Hampshire', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('55637','Center Conway', 'New Hampshire', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('88965','North Sutton', 'New Hampshire', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('64205','Peterborough', 'New Hampshire', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('71427','Alloway', 'New Jersey', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('42970','Middlesex', 'New Jersey', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('33166','Monmouth Park', 'New Jersey', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('70907','Belford', 'New Jersey', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('66553','Mystic Islands', 'New Jersey', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('58825','Medanales', 'New Mexico', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('97496','Miami', 'New Mexico', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('95525','Blanco', 'New Mexico', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('11040','North San Ysidro', 'New Mexico', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('94319','Cedar Hill', 'New Mexico', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('89251','Manhattan', 'New York', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('56448','Holland Patnt', 'New York', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('21981','Greenfld Ctr', 'New York', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('70247','General Electric', 'New York', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('27595','Fowlersville', 'New York', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('61479','Angier', 'North Carolina', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('83420','Alexis', 'North Carolina', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('33079','Longisland', 'North Carolina', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('79911','Locust', 'North Carolina', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('81364','Marcus', 'North Carolina', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('86087','Argusville', 'North Dakota', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('79222','Leith', 'North Dakota', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('90886','Beulah', 'North Dakota', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('68069','Mapleton', 'North Dakota', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('39351','Bordulac', 'North Dakota', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('25658','Mayfield Village', 'Ohio', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('52008','Anna', 'Ohio', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('51538','Melmore', 'Ohio', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('79316','Austinburg', 'Ohio', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('45152','Millfield', 'Ohio', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('81278','Alderson', 'Oklahoma', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('49973','Lookeba', 'Oklahoma', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('82349','Bank Of Oklahoma', 'Oklahoma', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('94859','Morris', 'Oklahoma', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('11140','Bromide', 'Oklahoma', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('53833','Abmps', 'Oregon', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('83939','Maywood Pk', 'Oregon', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('16510','Bandon', 'Oregon', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('79237','O Brien', 'Oregon', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('64934','Clatskanie', 'Oregon', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('60939','Alexander Springs', 'Pennsylvania', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('28318','Madisonburg', 'Pennsylvania', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('13691','Amberson', 'Pennsylvania', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('80864','Martic', 'Pennsylvania', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('14356','Nelson', 'Pennsylvania', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('11729','Escoheag', 'Rhode Island', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('81373','Riverside', 'Rhode Island', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('38803','Wakefield', 'Rhode Island', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('71552','Kingston', 'Rhode Island', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('34796','Little Compton', 'Rhode Island', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('14711','Madison', 'South Carolina', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('42019','Mcbee', 'South Carolina', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('21322','Bellinger', 'South Carolina', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('35693','Bmg Columbia Hse Video Club', 'South Carolina', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('75881','Bradley', 'South Carolina', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('94307','North Augusta', 'South Dakota', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('10564','Park Seed Co', 'South Dakota', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('33963','Pelzer', 'South Dakota', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('20410','Creston', 'South Dakota', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('34379','Davis Crossroads', 'South Dakota', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('91265','Madsen Beach', 'Tennessee', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('10795','Mina', 'Tennessee', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('15842','Britton', 'Tennessee', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('10553','Nisland', 'Tennessee', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('98624','Oakwood Lake', 'Tennessee', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('29011','Macon', 'Texas', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('87188','Bethel Spgs', 'Texas', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('90145','Bon Aqua', 'Texas', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('74941','Mulberry', 'Texas', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('82539','Oliver Springs', 'Texas', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('37173','Lockhart', 'Utah', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('81135','Alexanders Store', 'Utah', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('44646','Magnet', 'Utah', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('24782','Ames', 'Utah', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('80046','Barkman', 'Utah', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('53933','Axtell', 'Vermont', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('80037','Mexican Hat', 'Vermont', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('45589','Bowery Haven', 'Vermont', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('30692','Oakley', 'Vermont', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('37042','Partoun', 'Vermont', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('80623','N Hartland', 'Virginia', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('40572','Bondville', 'Virginia', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('57147','Brighton', 'Virginia', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('43795','Olympus', 'Virginia', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('10066','Plainfield', 'Virginia', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('10350','Andersonville', 'Washington', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('93183','Max Meadows', 'Washington', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('51758','Mechanicsvlle', 'Washington', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('20218','Modest Town', 'Washington', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('57723','Morrisville', 'Washington', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('12150','Marshall', 'West Virginia', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('81638','Medical Lake', 'West Virginia', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('44551','Moclips', 'West Virginia', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('83964','Brady', 'West Virginia', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('15781','Nine Mile Fls', 'West Virginia', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('11186','Looneyville', 'Wisconsin', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('11680','Mammoth', 'Wisconsin', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('90160','Maysville', 'Wisconsin', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('38562','Blckberry Cty', 'Wisconsin', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('76549','Mount Gay', 'Wisconsin', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('69821','Lyons', 'Wyoming', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('42132','Marion', 'Wyoming', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('79786','Bayfield', 'Wyoming', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('17227','Mishicot', 'Wyoming', 'USA');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('81876','Mount Sterling', 'Wyoming', 'USA');
+
+
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('95174','West Yorkshire', 'London', 'UK');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('35629','Suffolk', 'London', 'UK');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('16672','Lancashire', 'Isle of Wight', 'UK');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('66217','Derbyshire', 'Isle of Wight', 'UK');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('84067','County Durham', 'Oxford', 'UK');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('51105','Cambridgeshire', 'Oxford', 'UK');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('58462','North Yorkshire', 'Newcastel', 'UK');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('47866','Bedfordshire', 'Newcastel', 'UK');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('40154','Essex', 'York', 'UK');
+INSERT INTO Address (Zip, Area, City, Country)VALUES ('37026','Merseyside', 'York', 'UK');
+
+INSERT INTO online_payment (Card_Number,CVV,Cus_ID) VALUES('5551157076572346',886,1);
+INSERT INTO online_payment (Card_Number,CVV,Cus_ID) VALUES('5431361174426878',662,2);
+INSERT INTO online_payment (Card_Number,CVV,Cus_ID) VALUES('5447857423555757',390,3);
+INSERT INTO online_payment (Card_Number,CVV,Cus_ID) VALUES('5474462137987788',774,4);
+INSERT INTO online_payment (Card_Number,CVV,Cus_ID) VALUES('5101374797447311',176,5);
+INSERT INTO online_payment (Card_Number,CVV,Cus_ID) VALUES('5532728819264682',977,6);
+INSERT INTO online_payment (Card_Number,CVV,Cus_ID) VALUES('342502901011041',658,7);
+INSERT INTO online_payment (Card_Number,CVV,Cus_ID) VALUES('346937837621396',289,8);
+INSERT INTO online_payment (Card_Number,CVV,Cus_ID) VALUES('4485267462137333',221,9);
+INSERT INTO online_payment (Card_Number,CVV,Cus_ID) VALUES('4024007143245594',349,10);
+
